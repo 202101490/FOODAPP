@@ -98,7 +98,7 @@ export default function MyOrder() {
         });
 
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
         setOrderData(data.orderdata); // Fixing the key reference
     };
 

@@ -11,8 +11,9 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import Signup from './screens/Signup.js';
 import MyOrder from './screens/MyOrder.js'
+import VerifyOTP from './screens/VerifyOTP.js';
 import { Cartprovider } from './components/ContextReducer.js';
-import Cart from './screens/Cart.js';
+import Profile from './screens/Profile.js';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/createuser" element={<Signup />} />
+            <Route path="/verifyotp" element={<VerifyOTP/>} /> 
             <Route path="/myOrder" element={<MyOrder/>} />
+            <Route path="/myprofile" element={<Profile/>} /> 
           </Routes>
         </div>
       </Router>
