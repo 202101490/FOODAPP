@@ -150,7 +150,7 @@ router.post("/createuser", [
         service: 'gmail',
         auth: {
             user: '202101490@daiict.ac.in', // Your email here
-            pass: 'wsvocmrjmgvwbecc'  // Your email password here
+            pass: ''  // Your email password here
         }
     });
 
